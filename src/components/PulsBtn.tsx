@@ -8,7 +8,7 @@ const PlusBtn:React.FC<PlusBtnProps> = ({
 }) => {
     return (
         <>
-            <div onClick={onClick} className="flex items-center justify-center z-10 w-[52px] h-[52px] bg-cover text-white text-base pl-3" style={{ backgroundImage: "url(./plus.png)" }}>
+            <div onClick={onClick} className="cursor-pointer flex items-center justify-center z-10 w-[52px] h-[52px] bg-contain bg-no-repeat text-white text-base" style={{ backgroundImage: "url(./plus.png)" }}>
                 <span>+</span>
             </div>
         </>

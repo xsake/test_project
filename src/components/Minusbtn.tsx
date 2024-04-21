@@ -7,8 +7,8 @@ const MinusBtn:React.FC<MinusBtn> = ({
 }) => {
     return (
         <>
-            <div onClick={onClick} className="flex items-center justify-center z-10 w-[52px] h-[52px] bg-cover text-white text-base pl-3" style={{ backgroundImage: "url(./minus.png)" }}>
-                <span>-</span>
+            <div onClick={onClick} className="cursor-pointer flex items-center justify-center z-10 w-[52px] h-[52px] bg-contain bg-no-repeat text-white text-base" style={{ backgroundImage: "url(./minus.png)" }}>
+                <span className="-mt-4">-</span>
             </div>
         </>
     )

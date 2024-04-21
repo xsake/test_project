@@ -8,7 +8,7 @@ const Logo:React.FC<LogoProps> = ({
     
     return (
         <>
-            <a onClick={onClick} className="sm:-left-[120px] sm:block lg:hidden">
+            <a onClick={onClick} className="cursor-pointer sm:-left-[120px] sm:block lg:hidden">
                 <img
                     alt="top_man"
                     className="w-[90px] h-60px]"
